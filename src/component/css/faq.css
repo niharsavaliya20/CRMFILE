@@ -1,0 +1,44 @@
+.section-title-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 26px;
+}
+
+.service-bg {
+    background-color: azure;
+}
+
+.h2-title_faq {
+    color: black;
+}
+
+.h2-title {
+    font-size: 45px;
+}
+
+.faq-size {
+    font-size: 35px;
+}
+
+.title__line {
+    display: block;
+    width: 42px;
+    height: 3px;
+    background: #FC7749;
+    margin: 23px 0 30px;
+}
+
+.faq-accordian {
+    margin-left: 120px;
+    margin-bottom: 60px;
+    margin-right: 120px
+}
+
+.m-bottom {
+    margin-bottom: 80px;
+}
+
+.faq-size {
+    font-size : 21px
+}

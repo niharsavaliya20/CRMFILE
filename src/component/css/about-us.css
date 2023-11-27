@@ -1,0 +1,50 @@
+
+
+
+
+.about-wrapper {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+
+
+.about-space {
+    margin-bottom: 70px;
+}
+
+.about-txtsize {
+    line-height: 1.6em;
+    font-weight: 300;
+}
+
+
+
+.about-txt {
+    color: black;
+    width: 526px;
+    margin-left: auto;
+    position: relative;
+    z-index: 5;
+}
+
+.about-txtt {
+
+    width: 526px;
+    margin-left: 10rem;
+    position: relative;
+    z-index: 5;
+}
+
+.p {
+    margin: 0;
+}
+
+.title__line {
+    display: block;
+    width: 42px;
+    height: 3px;
+    background: #FC7749;
+    margin: 23px 0 30px;
+}
