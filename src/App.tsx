@@ -13,10 +13,10 @@ function App() {
           <span className="navbar-toggler-icon"></span>
         </button>
         <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div className="navbar-nav">
-            <a className="nav-item nav-link active size" href="#contact" >Contact</a>
+          <div className="navbar-nav fs-4">
             <a className="nav-item nav-link active size" href="#about-us" >About-us</a>
-            <a className="nav-item nav-link active size" href="#service">Services</a>
+            <a className="nav-item nav-link active size" href="#contact" >Contact</a>
+            <a className="nav-item nav-link active size " href="#service">Services</a>
             <a className="nav-item nav-link active size" href="#reviews">Review</a>
             <a className="nav-item nav-link active size" href="#faq">Faq</a>
           </div>

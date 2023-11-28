@@ -1,6 +1,7 @@
 
 
 import About from "./about-us";
+import Contact from "./contact";
 import Faq from "./faq";
 import Footer from "./footer";
 import Review from "./review";
@@ -126,26 +127,30 @@ const Home = () => {
     return (
         <>
             <div className="" id="about-us">
-                <About />              
+                <About />
             </div>
 
             <div className="bg-black">
                 <div className="mt-4" id="service">
-                    <Service serviceInfo={services}/>
-                    
+                    <Service serviceInfo={services} />
+
                 </div>
 
                 <div className="mt-5" id="reviews" >
-                    <Review reviewsInfo={reviews}/>
+                    <Review reviewsInfo={reviews} />
                 </div>
 
             </div>
 
             <div className="mt-3" id="faq" >
-                <Faq faqsInfo={faqs}/>
+                <Faq faqsInfo={faqs} />
             </div>
-  
-         <Footer/>
+
+            <div id="contact">
+                <Contact />
+            </div>
+            
+            <Footer />
         </>
 
     );
