@@ -1,5 +1,4 @@
-import About from "./about-us";
-import './css/service.css'
+
 import React from "react";
 
 const Service = (props : any) => {
@@ -9,16 +8,16 @@ const Service = (props : any) => {
     
         return (
             <div>
-                <div className="section-title-wrapper">
-                    <h2 className="h2-title h2-title_reviews" >
+                <div className="d-flex flex-column align-items-center mb-5 ">
+                    <h2 className="fs-2 fw-bold text-white mt-5 mb-3 " >
                         Choose your Destiny </h2>
                     <span className="title__line"></span>
                 </div>
 
-                <figure className="grid cols-3 gap m-5 text-center ">
+                <figure className="d-grid cols-3 gap container text-center ">
 
                     {serviceInfo.map((service: { id: React.Key | null | undefined; title: string | number | boolean | React.ReactElement<any, string | React.JSXElementConstructor<any>> | Iterable<React.ReactNode> | React.ReactPortal | null | undefined; description: string | number | boolean | React.ReactElement<any, string | React.JSXElementConstructor<any>> | Iterable<React.ReactNode> | React.ReactPortal | null | undefined; }) => (
-                        <div key={service.id}>
+                        <div className=" " key={service.id}>
                             <div className="card service-bg">
                                 <div className="card-body">
                                     <h5 className="card-title p-3">{service.title}</h5>

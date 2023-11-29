@@ -1,5 +1,3 @@
- import './css/about-us.css';
-// import './about-us.css'
 
 const About = () => {
 
@@ -7,27 +5,27 @@ const About = () => {
         <>
 
            
-                <div className="mx-5">
-                    <div className="px-5 d-flex mt-5">
-                        <div className="about-img">
+                <div className="container">
+                    <div className=" d-flex align-items-center  mt-5">
 
                             <img src="https://img.freepik.com/premium-photo/there-is-red-gold-frame-with-gold-border-generative-ai_958192-24830.jpg?ga=GA1.1.72809706.1700461414&semt=ais_ai_generated"
-                                alt="about-img" className="about-img__img  " />
-                        </div>
-                        <div className="about-txt">
-
-                            <h1 className="">
+                                alt="about-img" className="  " />
+                        
+                        <div className="">
+                          
+                        <h1 className="">
                                 About Us </h1>
                             <span className="title__line"></span>
+                          
 
-                            <div className="">
-                                <p className="about-txtsize ">
+                            <div className="fs-6 fw-3">
+                                <p className=" ">
                                     publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate
                                     the
                                     visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may
                                     be
                                 </p>
-                                <p className="about-txtsize">
+                                <p className="">
                                     We specialize in digital PR, local and off-page SEO, and content marketing to help our clients
                                     reach
                                     their audience with valuable content and enhance their online presence. We get your brand to the
@@ -52,16 +50,15 @@ const About = () => {
                 </div>
 
                 <div className="container">
-                    <div className="about-wrapper">
-                        <div>
-                            <div className="about-txt" >
-                                <p className="about-txtsize ">
+                    <div className="d-flex align-items-center ">
+                            <div className="fs-6 fw-3" >
+                                <p className="">
                                     publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate
                                     the
                                     visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may
                                     be
                                 </p>
-                                <p className="about-txtsize">
+                                <p className="">
                                     We specialize in digital PR, local and off-page SEO, and content marketing to help our clients
                                     reach
                                     their audience with valuable content and enhance their online presence. We get your brand to the
@@ -78,13 +75,12 @@ const About = () => {
                                     product PR, trending stories, and new product launches, we will make it happen.
                                 </p>
                             </div>
-                        </div>
-                        <div className="about-img">
-                            <div>
+                        
+                        
                                 <img src="https://img.freepik.com/premium-photo/happy-freelancer-working-laptop-desk-white-background_807028-333.jpg?ga=GA1.1.72809706.1700461414&semt=ais_ai_generated"
-                                    alt="about-img" className="about-img__img  border-black about-txtt" />
-                            </div>
-                        </div>
+                                    alt="about-img" className="" />
+                            
+                        
 
                     </div>
                 </div>

@@ -4,39 +4,39 @@ const Footer = () => {
 
         <>
            
-            <div className="border-top border-danger border-5 container footer-font">
-                <div className="py-5">
+            <div className="border-top border-danger border-5  footer-font">
+                <div className="py-5 container">
                     <div className="row">
                         <div className="col-6 col-md-2 mb-3">
                             <h5>Section</h5>
                             <ul className="nav flex-column ">
-                                <li className=" mb-2"><a href="#" className="nav-link p-0 text-light">Home</a></li>
-                                <li className=" mb-2"><a href="#" className="nav-link p-0 text-light">Features</a></li>
-                                <li className=" mb-2"><a href="#" className="nav-link p-0 text-light">Pricing</a></li>
-                                <li className=" mb-2"><a href="#faq" className="nav-link p-0 text-light">FAQs</a></li>
-                                <li className=" mb-2"><a href="#about-us" className="nav-link p-0 text-light">About</a></li>
+                                <li className=" mb-2"><a href="#" className="nav-link p-0 ">Home</a></li>
+                                <li className=" mb-2"><a href="#" className="nav-link p-0 ">Features</a></li>
+                                <li className=" mb-2"><a href="#" className="nav-link p-0 ">Pricing</a></li>
+                                <li className=" mb-2"><a href="#faq" className="nav-link p-0 ">FAQs</a></li>
+                                <li className=" mb-2"><a href="#about-us" className="nav-link p-0 ">About</a></li>
                             </ul>
                         </div>
 
                         <div className="col-6 col-md-2 mb-3">
                             <h5>Section</h5>
                             <ul className="nav flex-column">
-                                <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-light">Home</a></li>
-                                <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-light">Features</a></li>
-                                <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-light">Pricing</a></li>
-                                <li className="nav-item mb-2"><a href="#faq" className="nav-link p-0 text-light">FAQs</a></li>
-                                <li className="nav-item mb-2"><a href="#about-us" className="nav-link p-0 text-light">About</a></li>
+                                <li className="nav-item mb-2"><a href="#" className="nav-link p-0 ">Home</a></li>
+                                <li className="nav-item mb-2"><a href="#" className="nav-link p-0 ">Features</a></li>
+                                <li className="nav-item mb-2"><a href="#" className="nav-link p-0 ">Pricing</a></li>
+                                <li className="nav-item mb-2"><a href="#faq" className="nav-link p-0 ">FAQs</a></li>
+                                <li className="nav-item mb-2"><a href="#about-us" className="nav-link p-0 ">About</a></li>
                             </ul>
                         </div>
 
                         <div className="col-6 col-md-2 mb-3">
                             <h5>Section</h5>
                             <ul className="nav flex-column">
-                                <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-light">Home</a></li>
-                                <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-light">Features</a></li>
-                                <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-light">Pricing</a></li>
-                                <li className="nav-item mb-2"><a href="#faq" className="nav-link p-0 text-light">FAQs</a></li>
-                                <li className="nav-item mb-2"><a href="#about-us" className="nav-link p-0 text-light">About</a></li>
+                                <li className="nav-item mb-2"><a href="#" className="nav-link p-0 ">Home</a></li>
+                                <li className="nav-item mb-2"><a href="#" className="nav-link p-0 ">Features</a></li>
+                                <li className="nav-item mb-2"><a href="#" className="nav-link p-0 ">Pricing</a></li>
+                                <li className="nav-item mb-2"><a href="#faq" className="nav-link p-0 ">FAQs</a></li>
+                                <li className="nav-item mb-2"><a href="#about-us" className="nav-link p-0 ">About</a></li>
                             </ul>
                         </div>
 

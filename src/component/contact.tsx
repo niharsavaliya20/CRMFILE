@@ -2,18 +2,18 @@ import Button from 'react-bootstrap/Button';
 import Col from 'react-bootstrap/Col';
 import Form from 'react-bootstrap/Form';
 import Row from 'react-bootstrap/Row';
-import './css/contact.css'
+
 const Contact = () => {
 
     return (
         <>
-            <div className="section-title-wrapper">
-                <h2 className="h2-title h2-title_faq">
+            <div className="d-flex flex-column align-items-center mb-5">
+                <h2 className="fs-2 fw-bold">
                     Contact-us </h2>
                 <span className="title__line"></span>
             </div>
 
-            <Form className='mx-6'>
+            <Form className='container mb-5'>
                 <Row className="mb-3">
                     <Form.Group as={Col} controlId="formGridEmail">
                         <Form.Label>Email</Form.Label>

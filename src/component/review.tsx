@@ -1,8 +1,6 @@
 import Carousel from 'react-bootstrap/Carousel';
+import { JSXElementConstructor, Key, ReactElement, ReactNode, ReactPortal } from 'react';
 
-
-import { JSXElementConstructor, Key, ReactElement, ReactNode, ReactPortal, useState } from 'react';
-import './css/review.css'
 
 const Review = (props : any) => {
 
@@ -11,8 +9,8 @@ const Review = (props : any) => {
 
     return (
         <>
-            <div className="section-title-wrapper">
-                <h2 className="h2-title h2-title_reviews">
+            <div className="d-flex flex-column align-items-center mb-5">
+                <h2 className="fs-2 fw-bold text-white mt-5 mb-3">
                     Reviews </h2>
                 <span className="title__line"></span>
             </div>
